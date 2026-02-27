@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sourate Al-Fatiha</title>
+<style>
+    body{
+        background: linear-gradient(rgb(51, 0, 255), aquamarine);
+        font-family: Arial, sans-serif;
+        text-align: center;
+        margin: 0;
+        padding: 20px;
+    }
+    #instructions{
+        background-color: #FFFFE0;
+        padding: 15px;
+        border: 1px solid #FFD700;
+        border-radius: 8px;
+        margin-bottom: 20px;
+        font-size: 18px;
+    }
+    img{
+        max-width: 90%;
+        height: auto;
+        border: 2px solid #00008B;
+        border-radius: 10px;
+    }
+</style>
+</head>
+<body>
+
+<div id="instructions">
+اضغط على أي آية في الصورة لمعرفة تفسيرها. حرّك مؤشر الماوس فوق أي آية لرؤية شرح موجز.
+</div>
+<div id="instructions" style="background-color:#FFFFE0; padding:15px; border:1px solid #FFD700; border-radius:8px; margin-bottom:20px; font-size:18px;">
+ اضغط هنا للعودة إلى الصفحة الرئيسية: <a href="tp1.html">الصفحة الرئيسية</a>
+</div>
+
+<a href="tp1.html">
+    <img src="Ml.jpg" usemap="#image-map" alt="Sourate Al-Fatiha">
+</a>
+
+<map name="image-map">
+    <area target="" alt="" title="...سورة الفاتحة سميت هذه السورة بالفاتحة; لأنه يفتتح بها القرآن العظيم" href="bbt.html" coords="503,763,704,789" shape="rect">
+    <area target="" alt="zone2" title="...الثناء على الله بصفاته التي كلُّها أوصاف كمال," href="aya2.html" coords="470,758,278,788" shape="rect">
+    <area target="" alt="zone3" title="...(الرَّحْمَنِ) الذي وسعت رحمته جميع " href="aya3.html" coords="241,761,100,788" shape="rect">
+    <area target="" alt="zone4" title="...وهو سبحانه وحده مالك يوم القيامة, و" href="aya4.html" coords="704,802,571,836" shape="rect">
+    <area target="" alt="zone5" title="...إنا نخصك وحدك بالعبادة, ونستعين بك و" href="aya5.html" coords="531,803,331,833" shape="rect">
+    <area target="" alt="zone6" title="...دُلَّنا, وأرشدنا, ووفقنا إلى الطريق المستقيم, و" href="aya6.html" coords="290,801,97,835" shape="rect">
+    <area target="" alt="zone7" title="...طريق الذين أنعمت عليهم من النبيين والصدِّيقين والشهداء و" href="aya7.html" coords="699,846,215,884" shape="rect">
+</map>
+
+<script>
+// Message popup pour guider l'utilisateur
+window.addEventListener('load', () => {
+    alert("مرحبًا! اضغط على أي آية في الصورة لمعرفة تفسيرها. حرّك مؤشر الماوس فوق أي آية لرؤية الشرح الموجز.");
+});
+</script>
+
+</body>
+</html>
