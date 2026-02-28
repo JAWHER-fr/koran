@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Explication du site</title>
+
+<style>
+    body{
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background: linear-gradient(to right, #1e3c72, #2a5298);
+        color: white;
+        text-align: center;
+    }
+
+    .container{
+        max-width: 900px;
+        margin: 40px auto;
+        background-color: rgba(0,0,0,0.6);
+        padding: 30px;
+        border-radius: 12px;
+        box-shadow: 0 0 15px rgba(0,0,0,0.5);
+    }
+
+    h1{
+        margin-bottom: 20px;
+    }
+
+    video{
+        width: 100%;
+        max-width: 700px;
+        border-radius: 10px;
+        margin: 20px 0;
+    }
+
+    p{
+        font-size: 18px;
+        line-height: 1.6;
+    }
+
+    .btn{
+        display: inline-block;
+        margin-top: 25px;
+        padding: 12px 20px;
+        background-color: #ff9800;
+        color: white;
+        text-decoration: none;
+        border-radius: 8px;
+        font-weight: bold;
+        transition: 0.3s;
+    }
+
+    .btn:hover{
+        background-color: #4caf50;
+    }
+</style>
+
+</head>
+<body>
+
+<div class="container">
+
+    <h1>Explication de l'utilisation du site</h1>
+
+    <p>
+        Cette page explique comment utiliser le site.
+        Vous pouvez naviguer entre les sourates,
+        cliquer sur chaque verset pour consulter son tafsir,
+        et accéder aux pages des chouyoukh contenant
+        leurs présentations et contenus audio.
+    </p>
+
+    <!-- Vidéo locale -->
+    <video controls>
+        <source src="explication.mp4" type="video/mp4">
+        Votre navigateur ne supporte pas la lecture vidéo.
+    </video>
+
+    <p>
+        Pour revenir à la page principale,
+        cliquez sur le bouton ci-dessous.
+    </p>
+
+    <a href="fn.html" class="btn">Retour à la page principale</a>
+
+</div>
+
+</body>
+</html>
